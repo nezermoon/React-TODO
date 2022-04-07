@@ -1,0 +1,79 @@
+.container{
+  display: flex;
+	justify-content: center;
+}
+.todo{
+  width: 476px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.highPriorityTasks{
+  text-align: center;
+  padding: 25px 0 12px;
+}
+.lowPriorityTasks{
+  text-align: center;
+}
+input:focus{
+  outline: none;
+}
+.inputTaskName{
+  margin: 8px;
+  box-sizing: border-box;
+  width: 460px;
+  height: 45px;
+  border-radius: 6px;
+  border: 1px solid #989898;
+  padding: 12px;
+  font-size: 18px;
+}
+.add_task_button{
+  border: none;
+  font-size: 23px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+  left: 210px;
+  top: -43px;
+}
+.task_bar{
+  margin: 0px 8px 8px;
+  border-radius: 6px;
+  border: 1px solid #989898;
+  padding: 12px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: baseline;
+}
+.task_check{
+  position: relative;
+  top: 5px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  margin-right: 12px;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: 1px solid #998899;
+  cursor: pointer;
+}
+.delete_task{
+  cursor: pointer;
+  border: none;
+  font-size: 23px;
+  background-color: #fff;
+}
+.task_name{
+  flex: 1;
+}
+input:checked{
+  background: transparent url('./img/ellipse.svg') no-repeat center;
+  padding: 3px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  margin-right: 12px;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: 1px solid #998899;
+}
